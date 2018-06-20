@@ -1,0 +1,26 @@
+{
+  "name": "ifttt-webhooks",
+  "version": "1.0.0",
+  "description": "Collection of web hooks for my IFTTT rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:bobbyjball3/ifttt-webhooks"
+  },
+  "keywords": [
+    "ifttt",
+    "webhooks",
+    "home automation"
+  ],
+  "author": "Bobby Ball",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "1.8.12",
+    "express": "4.16.3",
+    "express-bunyan-logger": "1.3.3",
+    "ioredis": "3.2.2"
+  }
+}
